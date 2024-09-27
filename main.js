@@ -68,10 +68,10 @@ const createPrefixSets = (words) => {
     const wordLength = word.length;
 
     if (SIZE - 1 <= wordLength && wordLength <= SIZE) {
-      wordList[wordLength].add(word); // Use wordLength here
+      wordList[wordLength].add(word);
 
       for (let i = 1; i <= wordLength; i++) {
-        prefixSets[wordLength].add(word.slice(0, i)); // Use wordLength here
+        prefixSets[wordLength].add(word.slice(0, i));
       }
     }
   });
