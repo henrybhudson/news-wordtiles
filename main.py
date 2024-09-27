@@ -1,4 +1,5 @@
 # Board generation in Python
+# run get_board(<word>)
 
 SIZE = 4
 
