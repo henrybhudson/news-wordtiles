@@ -1,5 +1,7 @@
 # news-wordtiles
 
+[Codepen demo](https://codepen.io/henrybhudson/pen/OJKVjoX)
+
 Demo of playing the game:
 
 ![Screen%20Recording%202024-09-27%20at%2011](https://github.com/user-attachments/assets/c40bf894-7262-47f1-a138-9422449dede0)
