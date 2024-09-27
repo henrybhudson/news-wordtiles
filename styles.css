@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  gap: 5px;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  background-color: #3993dd;
+  cursor: move;
+  border-radius: 5px;
+  user-select: none;
+  font-family: "Montserrat", sans-serif; /* Apply the Montserrat font */
+  font-weight: bold; /* Make the font bold */
+}
